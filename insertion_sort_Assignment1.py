@@ -11,7 +11,6 @@ def insertion_sort_descending(data):
 
 
 if __name__ == "__main__":
-    elements = [45, 23, 89, 7, 12]
-    print("Original list:", elements)
-    sorted_elements = insertion_sort_descending(elements)
-    print("Sorted list in decreasing order:", sorted_elements)
+    numbers = list(map(int, input("Enter numbers separated by spaces: ").split()))
+    sorted_numbers = insertion_sort_descending(numbers)
+    print("Sorted list in decreasing order:", sorted_numbers)
